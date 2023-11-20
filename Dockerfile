@@ -16,3 +16,4 @@ EXPOSE 3002
 ENV PORT=3002
 ENV AMQP_URL="amqp://guest:guest@localhost:5672"
 
+CMD ["node", "index.js"]
